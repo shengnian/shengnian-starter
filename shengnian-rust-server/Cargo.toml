@@ -1,0 +1,13 @@
+[package]
+name = "shengnian-rust-server"
+version = "0.0.2"
+authors = ["cyc <qingmingsheng@yeah.net>"]
+
+
+[dependencies]
+nickel = "*"
+
+
+[dependencies.mysql]
+mysql = "*"
+default-features = false
